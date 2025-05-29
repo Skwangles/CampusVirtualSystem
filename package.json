@@ -1,0 +1,47 @@
+{
+  "name": "campusvirtual-backend",
+  "version": "1.0.0",
+  "description": "Backend to serve from database",
+  "main": "src/main.ts",
+  "scripts": {
+    "build": "cd ui && npm install && npm run build && cd .. && npm install && tsc -b",
+    "start": "npm run build && node build/main.js",
+    "client": "npm start --prefix ui"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@databases/pg": "^5.5.0",
+    "@databases/pg-schema-cli": "^4.4.0",
+    "@databases/pg-typed": "^4.4.1",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.14.10",
+    "@types/pg": "^8.11.6",
+    "@types/pg-pool": "^2.0.6",
+    "@types/three": "^0.167.2",
+    "better-sqlite3": "^11.6.0",
+    "cluster": "^0.7.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "env": "^0.0.2",
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.5.0",
+    "fs": "^0.0.1-security",
+    "heapify": "^0.6.0",
+    "multer": "^1.4.5-lts.1",
+    "path": "^0.12.7",
+    "pg": "^8.12.0",
+    "pg-pool": "^3.6.2",
+    "sharp": "^0.33.4",
+    "three": "^0.167.1",
+    "url": "^0.11.3",
+    "winston": "^3.17.0"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.12",
+    "@types/dotenv": "^6.1.1",
+    "@types/multer": "^1.4.11",
+    "typescript": "^5.5.3"
+  }
+}

@@ -1,0 +1,55 @@
+dist/
+node_modules/
+
+# Logs
+logs
+npm-debug.log*
+*.log
+# Dependency directories
+jspm_packages/
+# Optional npm cache directory
+.npm
+# Optional REPL history
+.repl
+# Optional eslint cache
+.eslintcache
+# Optional stylelint cache
+.stylelintcache
+# Optional cache directories
+.cache/
+# Optional cache files
+.cache-loader/
+# Optional coverage directory
+coverage/
+# Optional environment variables
+.env
+# Optional dotenv files
+.env.local
+# Optional dotenv files for specific environments
+.env.development
+.env.test
+.env.production
+# Optional build directories
+build/
+# Optional test directories
+test/
+# Optional temporary files
+tmp/
+# Optional temporary directories
+temp/
+# Optional IDE directories
+.idea/
+# Optional editor directories
+.vscode/
+# Optional OS generated files
+.DS_Store
+# Optional system files
+Thumbs.db
+# Optional lock files
+package-lock.json
+# Optional yarn lock files
+yarn.lock
+# Optional pnpm lock files  
+pnpm-lock.yaml
+# Optional bower lock files
+bower_components/
